@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\poop2\\Source\\Repos\\Tic-Tac-Toe-\\TIc Tac Toe\\TIc Tac Toe.csproj": {}
+    "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\TIc Tac Toe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\poop2\\Source\\Repos\\Tic-Tac-Toe-\\TIc Tac Toe\\TIc Tac Toe.csproj": {
+    "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\TIc Tac Toe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\poop2\\Source\\Repos\\Tic-Tac-Toe-\\TIc Tac Toe\\TIc Tac Toe.csproj",
+        "projectUniqueName": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\TIc Tac Toe.csproj",
         "projectName": "TIc Tac Toe",
-        "projectPath": "C:\\Users\\poop2\\Source\\Repos\\Tic-Tac-Toe-\\TIc Tac Toe\\TIc Tac Toe.csproj",
+        "projectPath": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\TIc Tac Toe.csproj",
         "packagesPath": "C:\\Users\\poop2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\poop2\\Source\\Repos\\Tic-Tac-Toe-\\TIc Tac Toe\\obj\\",
+        "outputPath": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
