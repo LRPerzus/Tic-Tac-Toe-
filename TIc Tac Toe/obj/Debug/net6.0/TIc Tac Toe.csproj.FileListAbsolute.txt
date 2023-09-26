@@ -1,0 +1,31 @@
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\bin\Debug\net6.0\appsettings.json
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\bin\Debug\net6.0\TIc Tac Toe.staticwebassets.runtime.json
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\bin\Debug\net6.0\TIc Tac Toe.exe
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\bin\Debug\net6.0\TIc Tac Toe.deps.json
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\bin\Debug\net6.0\TIc Tac Toe.runtimeconfig.json
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\bin\Debug\net6.0\TIc Tac Toe.dll
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\bin\Debug\net6.0\TIc Tac Toe.pdb
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\TIc Tac Toe.csproj.AssemblyReference.cache
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\TIc Tac Toe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\TIc Tac Toe.AssemblyInfoInputs.cache
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\TIc Tac Toe.AssemblyInfo.cs
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\TIc Tac Toe.csproj.CoreCompileInputs.cache
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\TIc Tac Toe.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\TIc Tac Toe.RazorAssemblyInfo.cache
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\TIc Tac Toe.RazorAssemblyInfo.cs
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\staticwebassets\msbuild.TIc Tac Toe.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\staticwebassets\msbuild.build.TIc Tac Toe.props
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TIc Tac Toe.props
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TIc Tac Toe.props
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\scopedcss\bundle\TIc Tac Toe.styles.css
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\scopedcss\projectbundle\TIc Tac Toe.bundle.scp.css
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\TIc Tac Toe.dll
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\refint\TIc Tac Toe.dll
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\TIc Tac Toe.pdb
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\TIc Tac Toe.genruntimeconfig.cache
+C:\Users\poop2\source\repos\Tic-Tac-Toe-\TIc Tac Toe\obj\Debug\net6.0\ref\TIc Tac Toe.dll
