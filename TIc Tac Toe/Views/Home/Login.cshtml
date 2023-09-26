@@ -1,0 +1,29 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your ASP.NET Page</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <div>
+        <form method="post" action="~/Home/Login" class="form-container">
+            <fieldset>
+                <legend class="">Account Login</legend>
+                <label for="txtLoginID">UserName:</label>
+                <input type="text" name="txtLoginID" id="txtLoginID" required class="form-control" />
+                <br />
+                <label for="txtPassword">Password:</label>
+                <input type="password" name="txtPassword" id="txtPassword" required class="form-control" />
+                <input type="submit" id="btnStaffLogin" class="btn-primary" value="Login" />
+                <br />
+                <span>@TempData["Message"]</span>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
+
+

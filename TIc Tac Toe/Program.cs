@@ -1,4 +1,13 @@
 var builder = WebApplication.CreateBuilder(args);
+// Add a default in-memory implementation of distributed cache
+builder.Services.AddDistributedMemoryCache();
+// Add the session service
+builder.Services.AddSession(options =>
+{
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -23,5 +32,6 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.UseSession();
 app.Run();
+    
