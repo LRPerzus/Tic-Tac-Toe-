@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y43rer/qEjGN334MX1PdjRL0LNq85yFvDrLhTQgqsSs=",
+  "Hash": "lA/aC+9MxMqfqBi8d6yL92BmArl1zxgl6Vb4xgABWvc=",
   "Source": "TIc Tac Toe",
   "BasePath": "_content/TIc Tac Toe",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TIc Tac Toe.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\css\\game.css",
+      "SourceId": "TIc Tac Toe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\",
+      "BasePath": "_content/TIc Tac Toe",
+      "RelativePath": "css/game.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\game.css"
+    },
+    {
       "Identity": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\css\\site.css",
       "SourceId": "TIc Tac Toe",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\js\\game.js",
+      "SourceId": "TIc Tac Toe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\",
+      "BasePath": "_content/TIc Tac Toe",
+      "RelativePath": "js/game.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\game.js"
     },
     {
       "Identity": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\js\\site.js",

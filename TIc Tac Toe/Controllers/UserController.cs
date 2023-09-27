@@ -9,7 +9,7 @@ namespace TIc_Tac_Toe.Controllers
     {
         TicTacToeDAL context = new TicTacToeDAL();
 
-        // GET: User
+        // Views Actions
         public ActionResult Index()
         {
             if (HttpContext.Session.GetString("username") == null)
@@ -20,10 +20,22 @@ namespace TIc_Tac_Toe.Controllers
             return View(u);
         }
 
-        // GET: User/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Play()
         {
+            if (HttpContext.Session.GetString("username") == null)
+            {
+                RedirectToAction("Login", "Home");
+            }
             return View();
+        }
+
+        public ActionResult Local()
+        {
+            if (HttpContext.Session.GetString("username") == null)
+            {
+                RedirectToAction("Login", "Home");
+            }
+            return View(); 
         }
 
         // GET: User/Create

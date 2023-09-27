@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\TIc Tac Toe.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\css\\game.css",
+      "PackagePath": "staticwebassets\\css\\game.css"
+    },
+    {
       "Id": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\js\\game.js",
+      "PackagePath": "staticwebassets\\js\\game.js"
     },
     {
       "Id": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\js\\site.js",
