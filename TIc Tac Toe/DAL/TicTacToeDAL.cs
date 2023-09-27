@@ -51,5 +51,39 @@ namespace TIc_Tac_Toe.DAL
             conn.Close();
             return authenticated;
         }
+
+        public user GetUser(string username)
+        {
+            user output = new user();
+            //Create a SqlCommand object from connection object
+            SqlCommand cmd = conn.CreateCommand();
+            //Specify the SELECT SQL statement 
+            cmd.CommandText = @"SELECT * FROM users WHERE username = @selectedUsername";
+            cmd.Parameters.AddWithValue("@selectedUsername", username);
+            //Open a database connection
+            conn.Open();
+
+            //Execute the SELECT SQL through a DataReader
+            SqlDataReader reader = cmd.ExecuteReader();
+            //Read all records until the end
+            if(reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    // Convert email address to lowercase for comparison
+                    if ((reader.GetString(1).ToLower() == username.ToLower()))
+                    {
+                        output.userId = reader.GetInt32(0);
+                        output.userName = reader.GetString(1);
+                    }
+                }
+            }
+            //Close the Data Reader
+            reader.Close();
+            //Close the data base connectio
+            conn.Close();
+
+            return output;
+        }
     }
 }

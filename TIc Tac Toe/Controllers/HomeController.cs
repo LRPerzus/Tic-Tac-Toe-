@@ -47,7 +47,7 @@ namespace TIc_Tac_Toe.Controllers
             if (context.Login(loginID, password))
             {
                 HttpContext.Session.SetString("username", loginID);
-                return RedirectToAction("Privacy", "Home");
+                return RedirectToAction("Index", "User");
 
             }
             else
