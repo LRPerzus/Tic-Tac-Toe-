@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\js\\speech.js",
+      "PackagePath": "staticwebassets\\js\\speech.js"
+    },
+    {
       "Id": "C:\\Users\\poop2\\source\\repos\\Tic-Tac-Toe-\\TIc Tac Toe\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

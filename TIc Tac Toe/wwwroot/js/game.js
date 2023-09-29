@@ -61,8 +61,6 @@
         }
     }
 
-
-
     let turn = 1;
     let moveNotation = '';
     var movesInput = document.getElementById('moveNotation')
