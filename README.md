@@ -7,15 +7,29 @@ Assumtion:
 I assume that the company has an severs API endpoint to store and retrieve the data for the users and their games
 
 Features:
+
 TIc Tac Toe Games using javascript
+	How it works:
+
+		I used bootstrap to make a 3x3 table with buttons on them
+		whenever a player presses the buttons it will change the display from nothing to either O, X
+		it have a listener game.js which listens for the event of a button with square class being click
+		if so it will run the event to change the turn and display.
+
 Able to post to an SQL sever using endpoint found in appsetting.json
+	How it works:
+
+		There is a hidden form that will be fully filled in once the win conditions are met
+		Once they are met the javascript will click on the submit of the form and Post it to the sever
 
 Features did not implement:
 	
 	Text to speech
+
 	Multi player from differenet browers
 
 How I would have Implement the feature:
+	
 Text to speech :
 
 	There were attempts to try and use the given API of SpeechSynthesis.
