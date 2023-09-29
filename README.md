@@ -36,6 +36,11 @@ Text to speech :
 	Problems I encontered: I made a simple code to try test out the speech but was not able to figure out why there was no sound
 	The was no console error from the page. I check that Microsoft Edge has synSpeech but I was unable to figure out the root of the issue.
 
+	First I would tell it in the home page to use tab to move around the screen
+	If the speech function worked I make it speak out the text of whatever the tag tab is on
+	it will use a event listener in javascript.
+	it will then focus on the tag and would speak the items in the tag.
+
 MultiPlayer:
 
 	I didn't really know of any software that allows for real time communication between two differenet browsers.
