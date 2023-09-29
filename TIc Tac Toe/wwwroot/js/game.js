@@ -65,6 +65,7 @@
     let moveNotation = '';
     var movesInput = document.getElementById('moveNotation')
     var winnerInput = document.getElementById('winner')
+    var submitButton = document.getElementById('submit')
     $("#screen").text("PLAYER 1 TURN");
     $(".square").click(function () {
 
@@ -80,6 +81,7 @@
                 $("#screen").text("PLAYER 1 WINS");
                 movesInput.value = moveNotation;
                 winnerInput.value = 'O';
+                submitButton.click()
 
 
             }
@@ -100,6 +102,7 @@
                 $("#screen").text("PLAYER 2 WINS");
                 movesInput.value = moveNotation;
                 winnerInput.value = 'X';
+                submitButton.click()
 
 
             }
