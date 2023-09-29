@@ -31,13 +31,13 @@
             <form asp-action="PostGame" method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-                <div class="form-group" style="display:none">
+                <div class="form-group" >
                     <label asp-for="player1_userid" class="control-label"></label>
                     <input asp-for="player1_userid" class="form-control" readonly value="@Context.Session.GetInt32("userId")"/>
                     <span asp-validation-for="player1_userid" class="text-danger"></span>
                 </div>
 
-                <div class="form-group" style="display:none">
+                <div class="form-group">
                     <label asp-for="player2_userid" class="control-label"></label>
                     <input asp-for="player2_userid" class="form-control" readonly value="@Context.Session.GetInt32("userId")" />
                     <span asp-validation-for="player2_userid" class="text-danger"></span>
@@ -56,7 +56,7 @@
                 </div>
 
                 <div class="form-group">
-                    <button type="submit" value="Submit" class="btn btn-primary" id="submit">Submit Game Data</button>
+                    <button type="submit" value="Save" class="btn btn-primary" id="submit">Submit Game Data</button>
                 </div>
             </form>
         </div>

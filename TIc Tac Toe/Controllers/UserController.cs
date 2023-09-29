@@ -47,16 +47,18 @@ namespace TIc_Tac_Toe.Controllers
         // POST: User/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult PostGame(int player1_userid, int player2_userid, string moveNotation, string winner)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            gameStats gameStats = new gameStats();
+            gameStats.player1_userid = player1_userid;
+            gameStats.player2_userid = player2_userid;
+            gameStats.winner = winner;
+            gameStats.moveNotation = moveNotation;
+            gameStats.timestamp = DateTime.Now;
+
+            context.sendGame(gameStats);
+
+            return RedirectToAction("Index", "User");
         }
 
         // GET: User/Edit/5

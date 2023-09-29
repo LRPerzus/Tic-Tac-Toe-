@@ -68,7 +68,7 @@
     var movesInput = document.getElementById('moveNotation')
     var winnerInput = document.getElementById('winner')
     $("#screen").text("PLAYER 1 TURN");
-    $("button").click(function () {
+    $(".square").click(function () {
 
         //Getting the class name front
         var className = $(this).attr("id");

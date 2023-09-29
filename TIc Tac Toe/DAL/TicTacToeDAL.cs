@@ -85,5 +85,28 @@ namespace TIc_Tac_Toe.DAL
 
             return output;
         }
+
+        public int sendGame(gameStats game)
+        {
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = @"
+    INSERT INTO tic_tac_toe_games (player1_userid, player2_userid, moves, winner, timestamp) 
+    VALUES (@p1Id, @p2Id, @moves, @w, @time);
+    SELECT SCOPE_IDENTITY();
+";
+
+            cmd.Parameters.AddWithValue("@p1Id", game.player1_userid);
+            cmd.Parameters.AddWithValue("@p2Id", game.player2_userid);
+            cmd.Parameters.AddWithValue("@w", game.winner);
+            cmd.Parameters.AddWithValue("@time", game.timestamp);
+
+            cmd.Parameters.AddWithValue("@moves", string.IsNullOrEmpty(game.moveNotation) ? "" : game.moveNotation);
+
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            return 0;
+
+        }
     }
 }
