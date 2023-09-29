@@ -2,6 +2,10 @@
     background-color: black;
 }
 
+.form-group {
+   display : none;
+}
+
 button {
     height: 80px;
     width: 80px;
