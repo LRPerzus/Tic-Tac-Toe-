@@ -11,25 +11,27 @@ TIc Tac Toe Games using javascript
 Able to post to an SQL sever using endpoint found in appsetting.json
 
 Features did not implement:
-Text to speech
-Multi player from differenet browers
+	
+	Text to speech
+	Multi player from differenet browers
 
 How I would have Implement the feature:
 Text to speech :
+
 	There were attempts to try and use the given API of SpeechSynthesis.
 	Problems I encontered: I made a simple code to try test out the speech but was not able to figure out why there was no sound
 	The was no console error from the page. I check that Microsoft Edge has synSpeech but I was unable to figure out the root of the issue.
 
 MultiPlayer:
+
 	I didn't really know of any software that allows for real time communication between two differenet browsers.
 	From my research I found that I could use signalR to transfer messages between browsers.
 
 	I would have added them to the game.js for each button click would send a message 
 	to the other player about the new move
+
 	then the display would refresh and show the new move into the other player.
-
 	I would have also made it where if its not the players turn,( player1 == turn == 1 ) they were not allowed to press any buttons or send
-
 	However due to my inexperience and time constraints I was unable to apply this feature
 
 
