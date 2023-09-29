@@ -43,10 +43,11 @@ namespace TIc_Tac_Toe.Controllers
         {
             string loginID = formData["txtLoginID"].ToString();
             string password = formData["txtPassword"].ToString();
-            string emailPattern = @"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$";
             if (context.Login(loginID, password))
             {
-                HttpContext.Session.SetString("username", loginID);
+                user search = context.GetUser(loginID);
+                HttpContext.Session.SetString("username", search.userName);
+                HttpContext.Session.SetInt32("userId" , search.userId);
                 return RedirectToAction("Index", "User");
 
             }
