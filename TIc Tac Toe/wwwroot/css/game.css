@@ -19,18 +19,18 @@ button {
     padding: 8px;
 }
 
-.reset:hover {
+    .reset:hover {
         opacity: 0.8;
-}
+    }
+
 .circle::before {
-    content: "\f111"; 
-    font-family: 'Font Awesome 5 Free'; 
+    content: "\f111";
+    font-family: 'Font Awesome 5 Free';
     font-size: 20px;
 }
+
 .cross::before {
     content: "\2716";
     font-family: 'Font Awesome 5 Free';
     font-size: 20px;
 }
-
-
